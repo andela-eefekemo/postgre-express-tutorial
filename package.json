@@ -1,0 +1,34 @@
+{
+  "name": "postgre-express-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-eefekemo/postgre-express-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-eefekemo/postgre-express-tutorial/issues"
+  },
+  "homepage": "https://github.com/andela-eefekemo/postgre-express-tutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg": "^6.2.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
